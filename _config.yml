@@ -2,7 +2,7 @@ title: "Vector Production Studio"
 description: "Koleksi vector siap pakai untuk desain dan kebutuhan produksi."
 lang: id-ID
 url:"https://vectorgratis48-rgb.github.io"
-baseurl: "/vectorstudio""
+baseurl: "/vectorstudio"
 markdown: kramdown
 permalink: /:categories/:title/
 plugins:
