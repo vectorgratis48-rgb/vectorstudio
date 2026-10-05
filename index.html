@@ -1,0 +1,45 @@
+---
+layout: default
+title: "Vector Siap Pakai untuk Produksi"
+description: "Koleksi vector untuk cutting, printing, CNC, signage, huruf timbul, dekorasi, dan kebutuhan desain."
+---
+<section class="hero section-shell" aria-labelledby="hero-title">
+  <div class="hero-copy reveal">
+    <p class="eyebrow">VECTOR • DESIGN • PRODUCTION</p>
+    <h1 id="hero-title">Vector siap pakai untuk desain dan produksi.</h1>
+    <p class="hero-lead">Koleksi vector yang disusun untuk membantu pekerjaan desain dan persiapan produksi—mulai dari cutting, printing, CNC, signage, huruf timbul, hingga kebutuhan dekorasi.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ '/vector/' | relative_url }}">Lihat Vector</a>
+      <a class="btn btn-ghost" href="{{ '/free-vector/' | relative_url }}">Free Vector</a>
+    </div>
+    <div class="hero-points" aria-label="Keunggulan">
+      <span>Manual Bézier</span><span>Siap disesuaikan</span><span>Fokus produksi</span>
+    </div>
+  </div>
+  <div class="hero-media reveal">
+    <figure class="hero-photo">
+      <img src="{{ '/assets/images/hero-original.png' | relative_url }}" alt="Operator desain bekerja di depan komputer" loading="eager">
+      <figcaption>HRO-00001 · Foto hero asli</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section-shell section-space" aria-labelledby="collections-title">
+  <div class="section-heading reveal"><div><p class="eyebrow">KOLEKSI</p><h2 id="collections-title">Cari berdasarkan jenis vector</h2></div><a class="text-link" href="{{ '/vector/' | relative_url }}">Lihat semua →</a></div>
+  <div class="category-grid">
+    {% assign cats = site.data.categories %}
+    {% for cat in cats %}<a class="category-card reveal" href="{{ cat.url | relative_url }}"><span class="category-icon">{{ cat.icon }}</span><span><strong>{{ cat.name }}</strong><small>{{ cat.description }}</small></span></a>{% endfor %}
+  </div>
+</section>
+
+<section class="section-shell split-section section-space">
+  <div class="split-copy reveal"><p class="eyebrow">UNTUK PEKERJAAN LAPANGAN</p><h2>Vector bukan hanya untuk dilihat—file harus siap dipakai.</h2><p>Artwork vector yang rapi lebih mudah disesuaikan ketika ukuran berubah. Untuk kebutuhan produksi, struktur path, kurva, node, dan format file ikut menentukan kenyamanan saat artwork diproses lebih lanjut.</p><p>Koleksi ini dikembangkan dengan sudut pandang praktis: membantu desainer dan teknisi mengurangi pekerjaan tracing ulang ketika bentuk yang dibutuhkan sudah tersedia.</p><a class="text-link" href="{{ '/edukasi/vector-untuk-produksi/' | relative_url }}">Pelajari vector untuk produksi →</a></div>
+  <div class="feature-panel reveal"><div class="feature-line"><b>Cutting</b><span>Path tertutup dan kurva terkontrol</span></div><div class="feature-line"><b>Printing</b><span>Artwork mudah disesuaikan ukurannya</span></div><div class="feature-line"><b>CNC</b><span>Persiapan file lebih terarah</span></div><div class="feature-line"><b>Signage</b><span>Cocok untuk berbagai ukuran desain</span></div></div>
+</section>
+
+<section class="section-shell section-space" aria-labelledby="demo-title">
+  <div class="section-heading reveal"><div><p class="eyebrow">KONTEN AWAL</p><h2 id="demo-title">Koleksi akan terus bertambah</h2></div></div>
+  <div class="notice reveal"><strong>Catatan untuk 3 gambar awal:</strong> gambar yang saat ini dikirim memiliki watermark sumber lain. Di dalam repository gambar tersebut disimpan sebagai <em>referensi sementara</em>, bukan sebagai produk jual. Setelah artwork/vector yang memiliki hak distribusi tersedia, gambar dapat dimasukkan ke katalog dengan ID otomatis.</div>
+</section>
+
+<section class="section-shell section-space cta-section"><div class="cta-card reveal"><p class="eyebrow">CUSTOM VECTOR</p><h2>Butuh vector yang belum tersedia?</h2><p>Pengunjung dapat menghubungi WhatsApp langsung dengan konteks kebutuhan mereka.</p><a class="btn btn-primary" data-wa href="#">Hubungi via WhatsApp</a></div></section>
